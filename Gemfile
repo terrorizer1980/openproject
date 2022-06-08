@@ -172,9 +172,9 @@ gem 'carrierwave', '~> 1.3.1'
 gem 'carrierwave_direct', '~> 2.1.0'
 gem 'fog-aws'
 
-gem 'aws-sdk-core', '~> 3.107'
+gem 'aws-sdk-core', '~> 3.121', '>= 3.121.1'
 # File upload via fog + screenshots on travis
-gem 'aws-sdk-s3', '~> 1.91'
+gem 'aws-sdk-s3', '~> 1.103', '>= 1.103.0'
 
 gem 'openproject-token', '~> 2.2.0'
 
