@@ -168,8 +168,8 @@ gem 'puma-plugin-statsd', '~> 2.0'
 
 gem 'nokogiri', '~> 1.12.5'
 
-gem 'carrierwave', '~> 1.3.1'
-gem 'carrierwave_direct', '~> 2.1.0'
+gem 'carrierwave', '~> 2.2.5'
+gem 'carrierwave_direct', '~> 3.0.0'
 gem 'fog-aws'
 
 gem 'aws-sdk-core', '~> 3.107'
