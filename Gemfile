@@ -227,7 +227,7 @@ group :test do
   gem 'timecop', '~> 0.9.0'
 
   # Mock backend requests (for ruby tests)
-  gem 'webmock', '~> 3.12', require: false
+  gem 'webmock', '~> 3.15', '>= 3.15.1', require: false
 
   # Mock selenium requests through proxy (for feature tests)
   gem 'puffing-billy', '~> 2.4.0'
@@ -253,9 +253,9 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
 
-  gem 'rubocop'
-  gem 'rubocop-rails'
-  gem 'rubocop-rspec'
+  gem 'rubocop', '>= 1.22.2'
+  gem 'rubocop-rails', '>= 2.12.3'
+  gem 'rubocop-rspec', '>= 2.6.0'
 
   # Gems for living styleguide
   gem 'livingstyleguide', '~> 2.1.0'
@@ -281,7 +281,7 @@ group :development, :test do
 
   # Brakeman scanner
   gem 'brakeman', '~> 5.1.0'
-  gem 'danger-brakeman'
+  gem 'danger-brakeman', '>= 0.0.3'
 end
 
 gem 'bootsnap', '~> 1.9.1', require: false
