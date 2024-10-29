@@ -253,7 +253,7 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
 
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
   gem 'rubocop-rails'
   gem 'rubocop-rspec'
 
