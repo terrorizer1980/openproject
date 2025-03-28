@@ -33,8 +33,8 @@ ruby '~> 2.7.4'
 gem 'actionpack-xml_parser', '~> 2.0.0'
 gem 'activemodel-serializers-xml', '~> 1.0.1'
 gem 'activerecord-import', '~> 1.2.0'
-gem 'activerecord-session_store', '~> 2.0.0'
-gem 'rails', '~> 6.1.3'
+gem 'activerecord-session_store', '~> 2.2.0'
+gem 'rails', '~> 7.0.0'
 gem 'responders', '~> 3.0'
 
 gem 'rdoc', '>= 2.4.2'
@@ -77,7 +77,7 @@ gem 'commonmarker', '~> 0.23.0'
 
 # HTML pipeline for transformations on text formatter output
 # such as sanitization or additional features
-gem 'html-pipeline', '~> 2.14.0'
+gem 'html-pipeline', '~> 3.0.0'
 # Tasklist parsing and renderer
 gem 'deckar01-task_list', '~> 2.3.1'
 # Requires escape-utils for faster escaping
@@ -166,7 +166,7 @@ gem 'puma', '~> 5.5'
 gem 'rack-timeout', '~> 0.6.0', require: "rack/timeout/base"
 gem 'puma-plugin-statsd', '~> 2.0'
 
-gem 'nokogiri', '~> 1.12.5'
+gem 'nokogiri', '~> 1.18.4'
 
 gem 'carrierwave', '~> 1.3.1'
 gem 'carrierwave_direct', '~> 2.1.0'
