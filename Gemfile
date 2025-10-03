@@ -253,9 +253,9 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
 
-  gem 'rubocop'
-  gem 'rubocop-rails'
-  gem 'rubocop-rspec'
+  gem 'rubocop', '>= 1.66.0'
+  gem 'rubocop-rails', '>= 2.12.3'
+  gem 'rubocop-rspec', '>= 2.6.0'
 
   # Gems for living styleguide
   gem 'livingstyleguide', '~> 2.1.0'
