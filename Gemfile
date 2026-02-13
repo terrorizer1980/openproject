@@ -188,9 +188,9 @@ gem 'mini_magick', '~> 4.11.0', require: false
 
 # Sentry error reporting, loaded on demand
 group :sentry do
-  gem "sentry-delayed_job", '~> 4.7.0', require: false
-  gem "sentry-rails", '~> 4.7.0', require: false
-  gem "sentry-ruby", '~> 4.7.0',  require: false
+  gem "sentry-delayed_job", "~> 4.8.0", require: false
+  gem "sentry-rails", "~> 4.8.0", require: false
+  gem "sentry-ruby", "~> 4.8.0", require: false
 end
 
 group :test do
@@ -281,7 +281,7 @@ group :development, :test do
 
   # Brakeman scanner
   gem 'brakeman', '~> 5.1.0'
-  gem 'danger-brakeman'
+  gem 'danger-brakeman', '>= 0.0.3'
 end
 
 gem 'bootsnap', '~> 1.9.1', require: false
